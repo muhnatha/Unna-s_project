@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/.css2?family=Quicksand:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --blue-background1: #477AE9;
+    --blue-backgournd2: #92B2F9;
+    --dark-color: #000;
+    --light-color: #FFFFFF;
+}
+
+.desktop-1 .pelecehan-seksual-adalah-perilaku-yang-menyentuh-atau-melibatkan-hal-hal-seksual-tanpa-izin-dari-pihak-yang-terkena-dampaknya-dan-menimbulkan-reaksi-negatif-seperti-malu-marah-atau-kesal-ini-juga-bisa-berupa-perlakuan-yang-merendahkan-seseorang-berdasarkan-jenis-kelaminnya-tidak-hanya-tindakan-fisik-pelecehan-seksual-juga-mencakup-kata-kata-atau-perilaku-yang-merujuk-pada-seksualitas-seseorang-dilakukan-dengan-paksaan-intimidasi-ancaman-atau-penyalahgunaan-kekuasaan-intinya-pelecehan-seksual-adalah-tindakan-yang-disengaja-baik-secara-langsung-maupun-tidak-langsung-yang-berdampak-buruk-bagi-korban-dan-sering-kali-menimbulkan-rasa-tidak-nyaman-atau-penolakan-dari-korban-pelecehan-seksual-adalah-perilaku-yang-menyentuh-atau-melibatkan-hal-hal-seksual-tanpa-izin-dari-pihak-yang-terkena-dampaknya-dan-menimbulkan-reaksi-negatif-seperti-malu-marah-atau-kesal-ini-juga-bisa-berupa-perlakuan-yang-merendahkan-seseorang-berdasarkan-jenis-kelaminnya-tidak-hanya-tindakan-fisik-pelecehan-seksual-juga-mencakup-kata-kata-atau-perilaku-yang-merujuk-pada-seksualitas-seseorang-dilakukan-dengan-paksaan-intimidasi-ancaman-atau-penyalahgunaan-kekuasaan-intinya-pelecehan-seksual-adalah-tindakan-yang-disengaja-baik-secara-langsung-maupun-tidak-langsung-yang-berdampak-buruk-bagi-korban-dan-sering-kali-menimbulkan-rasa-tidak-nyaman-atau-penolakandarikorban {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+  }
+  .desktop-1 {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.1rem 4.9rem 5.6rem 6.6rem;
+    width: 120rem;
+    box-sizing: border-box;
+  }
+  .desktop-1 .pelecehan-sexual {
+    position: relative;
+    margin: 0 44.1rem 0.8rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 5.6rem;
+    color: #FFFFFF;
+  }
+  .desktop-1 .background {
+    background: #477AE9;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    height: 100%;
+  }
+  .desktop-1 .container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .desktop-1 .undraw-showing-support-re-5-f-2-v-1 {
+    margin: 2.2rem 0 14.3rem 0;
+    width: 41.3rem;
+    height: 32.1rem;
+  }
+  .desktop-1 .container-1 {
+    border-radius: 6.3rem;
+    background: #92B2F9;
+    position: relative;
+    margin-right: 2.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2.2rem 5.4rem 1.9rem 5.4rem;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Quicksand," sans-serif;
+    background: #fff;
+    color: #477AE9;
+}
+
+section {
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #92B2F9;
+    cursor: pointer;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3{
+    font-size: 1.8rem;
+    font-family: 'Jost';
+    font-weight: 500;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.answer3 {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    font-family: 'Jost';
+    font-weight: 400;
+}
+
+.answer3 p {
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1.4rem;
+  font-family: 'Jost';
+  font-weight: 400;
+}
+
+.faq.active .answer {
+    max-height: 800px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active .answer3 {
+  max-height: 1200px;
+  animation: fade 1s ease-in-out;
+}
+
+.faq.active svg {
+    transform: rotate(180deg);
+}
+
+svg {
+    transition: transform .5s ease;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+button {
+  margin: 20px auto; /* Adjust margin as needed */
+  display: block; /* This makes the button a block element, which allows it to take up the full width */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #6C63FF; /* Background color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-family: 'Inter';
+  font-size: 1.6rem; /* Font size */
+  font-weight: 600;
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+.button-description {
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.button-description p {
+  font-size: 1.2em;
+  margin-bottom: 10px; /* Add space between the description and button */
+}
+
+.button-description a {
+  display: inline-block; /* Make the anchor element a block-level element */
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: #6C63FF; /* Background color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline from the link */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.button-description a:hover {
+  background-color: #270141; /* Darker background color on hover */
+  transform: translateY(-2px); /* Add a slight lift effect on hover */
+}
