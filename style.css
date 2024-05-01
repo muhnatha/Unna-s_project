@@ -307,7 +307,7 @@ button {
   }
 
   .faq.active .answer3 {
-  max-height: 3000px;
+  max-height: 6000px;
   animation: fade 1s ease-in-out;
   }
 }
