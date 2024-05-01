@@ -302,12 +302,12 @@ button {
   font-weight: 400;
   }
   .faq.active .answer {
-    max-height: 1000px;
+    max-height: 1500px;
     animation: fade 1s ease-in-out;
   }
 
   .faq.active .answer3 {
-  max-height: 1500px;
+  max-height: 2000px;
   animation: fade 1s ease-in-out;
   }
 }
