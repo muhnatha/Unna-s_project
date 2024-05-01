@@ -325,7 +325,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .desktop-1 .background {
     background: #477AE9;
     position: absolute;
@@ -544,7 +544,8 @@ button {
   animation: fade 1s ease-in-out;
   }
 }
-@media only screen and (min-width: 601px) {
+
+@media only screen and (max-width: 992px) {
   .desktop-1 .background {
     background: #477AE9;
     position: absolute;
@@ -653,5 +654,3 @@ button {
   animation: fade 1s ease-in-out;
   }
 }
-
-
