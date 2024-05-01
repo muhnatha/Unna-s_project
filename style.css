@@ -220,6 +220,10 @@ button {
       padding: 100%; /* Adjust padding for smaller screens */
       width: auto; /* Allow the content to expand to the full width */
   }
+  .desktop-1 .background {
+        background-size: cover; /* Adjust background size to cover the entire element */
+        background-position: center; /* Center the background image */
+    }
 
   .desktop-1 .container {
       flex-direction: column; /* Change container to column layout */
