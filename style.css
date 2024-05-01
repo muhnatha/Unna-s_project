@@ -14,7 +14,7 @@
 }
 
 .desktop-1 .pelecehan-seksual-adalah-perilaku-yang-menyentuh-atau-melibatkan-hal-hal-seksual-tanpa-izin-dari-pihak-yang-terkena-dampaknya-dan-menimbulkan-reaksi-negatif-seperti-malu-marah-atau-kesal-ini-juga-bisa-berupa-perlakuan-yang-merendahkan-seseorang-berdasarkan-jenis-kelaminnya-tidak-hanya-tindakan-fisik-pelecehan-seksual-juga-mencakup-kata-kata-atau-perilaku-yang-merujuk-pada-seksualitas-seseorang-dilakukan-dengan-paksaan-intimidasi-ancaman-atau-penyalahgunaan-kekuasaan-intinya-pelecehan-seksual-adalah-tindakan-yang-disengaja-baik-secara-langsung-maupun-tidak-langsung-yang-berdampak-buruk-bagi-korban-dan-sering-kali-menimbulkan-rasa-tidak-nyaman-atau-penolakan-dari-korban-pelecehan-seksual-adalah-perilaku-yang-menyentuh-atau-melibatkan-hal-hal-seksual-tanpa-izin-dari-pihak-yang-terkena-dampaknya-dan-menimbulkan-reaksi-negatif-seperti-malu-marah-atau-kesal-ini-juga-bisa-berupa-perlakuan-yang-merendahkan-seseorang-berdasarkan-jenis-kelaminnya-tidak-hanya-tindakan-fisik-pelecehan-seksual-juga-mencakup-kata-kata-atau-perilaku-yang-merujuk-pada-seksualitas-seseorang-dilakukan-dengan-paksaan-intimidasi-ancaman-atau-penyalahgunaan-kekuasaan-intinya-pelecehan-seksual-adalah-tindakan-yang-disengaja-baik-secara-langsung-maupun-tidak-langsung-yang-berdampak-buruk-bagi-korban-dan-sering-kali-menimbulkan-rasa-tidak-nyaman-atau-penolakandarikorban {
-    text-align: center;
+    text-align: justify;
     overflow-wrap: break-word;
     font-family: 'poppins';
     font-weight: 500;
@@ -33,7 +33,9 @@
   .desktop-1 .pelecehan-sexual {
     position: relative;
     margin: 0 44.1rem 0.8rem 0;
-    display: inline-block;
+    display: block; /* Display the text as a block element */
+    text-align: justify; /* Justify the text to align it together */
+    line-height: 1.5; /* Adjust the line height for compactness */
     overflow-wrap: break-word;
     font-family: 'Raleway';
     font-weight: 900;
@@ -55,6 +57,7 @@
     flex-direction: row;
     width: fit-content;
     box-sizing: border-box;
+    text-align: justify; /* Justify the text */
   }
   .desktop-1 .undraw-showing-support-re-5-f-2-v-1 {
     margin: 2.2rem 0 14.3rem 0;
