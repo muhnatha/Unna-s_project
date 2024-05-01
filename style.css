@@ -217,7 +217,7 @@ button {
 
 @media only screen and (max-width: 768px) {
   .desktop-1 {
-      padding: 4rem 2rem; /* Adjust padding for smaller screens */
+      padding: 100%; /* Adjust padding for smaller screens */
       width: auto; /* Allow the content to expand to the full width */
   }
 
